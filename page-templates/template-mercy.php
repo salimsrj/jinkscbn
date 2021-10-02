@@ -37,7 +37,7 @@ get_header('mercy');
                                 <a href="#">
                                     <span>PRE-ADD:</span>
                                     <div class="image-container">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apple_music.png" alt="apple_music">
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apple_music.png" alt="apple_music">                                       
                                     </div>
                                 </a>
                             </li>
@@ -69,6 +69,7 @@ get_header('mercy');
                         <article>
                             <div class="image-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/stream_1.jpg" alt="stream_1">
+                                <a href="#" class="play_btn"><span><i class="fa fa-play" aria-hidden="true"></i></span></a>
                             </div>
                             <h3 class="title">ALL IT COST ME WAS EVERYTHING</h3>
                             <div class="listen-on">
@@ -96,6 +97,7 @@ get_header('mercy');
                         <article>
                             <div class="image-container">
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/stream_1.jpg" alt="stream_1">
+                                <a href="#" class="play_btn"><span><i class="fa fa-play" aria-hidden="true"></i></span></a>
                             </div>
                             <h3 class="title">ALL IT COST ME WAS EVERYTHING</h3>
                             <div class="listen-on">
@@ -195,6 +197,18 @@ get_header('mercy');
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta_with_logo" style="background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8) ), url('<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_bg.jpg'); background-size: cover; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo-container">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_logo.png" alt="cbn_logo">
+                </div>
+                <a href="#" class="explore_link">EXPLORE NONE THE WISER</a>
             </div>
         </div>
     </div>

@@ -15128,10 +15128,22 @@ section.preview-stream .stream .steream-list .item {
 section.preview-stream .stream .steream-list .item:first-child {
   padding-left: 0;
 }
+section.preview-stream .stream .steream-list .item a.play_btn {
+  display: none;
+}
+section.preview-stream .stream .steream-list .item:hover a.play_btn {
+  position: absolute;
+  top: calc(50% - 20px);
+  color: #fff;
+  font-size: 30px;
+  display: block;
+  left: calc(50% - 10px);
+}
 section.preview-stream .stream .steream-list .item .image-container {
   max-width: 170px;
   max-height: 170px;
   overflow: hidden;
+  position: relative;
 }
 section.preview-stream .stream .steream-list .item .image-container img {
   max-width: 100%;
@@ -15240,6 +15252,34 @@ section.explore .product-list li span.price {
   letter-spacing: normal;
   line-height: 20px;
   text-align: left;
+}
+
+section.cta_with_logo {
+  padding: 20px 0;
+  text-align: center;
+}
+section.cta_with_logo .logo-container {
+  max-width: 110px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+section.cta_with_logo .explore_link {
+  opacity: 0.75;
+  color: #ffffff;
+  font-family: "TradeGothic LT";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+section.cta_with_logo .explore_link::after {
+  content: "\f105";
+  font-family: fontawesome;
+  font-size: 18px;
+  padding-left: 8px;
+  position: relative;
+  top: 1px;
 }
 
 footer {
