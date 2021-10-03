@@ -31,6 +31,7 @@ body {
         top: 0;
         left: 0;
         width: 100%;
+        z-index: 999;
     }
 }
 
@@ -69,6 +70,11 @@ nav.bg-transparent {
         font-size: 14px;
         line-height: 24px;
         opacity: .75;
+    }
+    .cbn_custom_logo {
+        img {
+            max-width: 110px !important;
+        }
     }
 }
 
@@ -122,6 +128,7 @@ section.preview-stream {
     .preview {
         article>.image-container {
             max-width: 390px;
+            border: 2px solid #ffffff;
         }
         .pre-order {
             padding-top: 25px;
@@ -427,5 +434,150 @@ footer {
     padding: 20px 0;
     span {
         opacity: .5;
+    }
+}
+
+
+/****CBN****/
+
+.template_cbn {
+    section.preview-stream .stream h2.title {
+        border-bottom: 2px solid #f06b3d;
+    }
+    section.explore h2.title {
+        border-bottom: 2px solid #f06b3d;
+    }
+    section.cta_with_logo .logo-container {
+        max-width: 200px;
+    }
+    section.cta_with_logo .explore_link::after {
+        color: #0166ab;
+    }
+}
+
+
+/****Coming Soon****/
+
+body.coming-soon {
+    background: rgba(14, 14, 14, 1);
+    padding: 0 50px;
+    .page_title_box {
+        position: absolute;
+        top: 150px;
+        width: 100%;
+        text-align: center;
+        z-index: 999999;
+        h1.page-title {
+            color: #ffffff;
+            font-family: $font-dinCondensed;
+            font-size: 100px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 95px;
+            text-transform: uppercase;
+            padding: 20px;
+            background: #000000;
+            display: inline-block;
+        }
+    }
+    .left-side {
+        min-height: 100vh;
+        text-align: center;
+        .image-container {
+            max-width: 300px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+        }
+        .logo-container {
+            max-width: 200px;
+            margin: 0 auto;
+            margin-bottom: 350px;
+            min-height: 50px;
+        }
+        h2.title {
+            color: #6e6e6e;
+            font-family: "TradeGothic LT";
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 30px 0;
+        }
+        .bottom-cta {
+            padding: 30px 0;
+            a.cta-link {
+                color: #ffffff;
+                font-family: "TradeGothic LT";
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                &::after {
+                    content: "\f105";
+                    font-family: fontawesome;
+                    font-size: 18px;
+                    padding-left: 8px;
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
+    }
+    .right-side {
+        min-height: 100vh;
+        text-align: center;
+        .image-container {
+            max-width: 300px;
+            margin: 0 auto;
+            border: 2px solid #ffffff;
+        }
+        .logo-container {
+            max-width: 200px;
+            margin: 0 auto;
+            margin-bottom: 350px;
+            min-height: 50px;
+            img {
+                max-height: 50px;
+            }
+        }
+        h2.title {
+            color: #6e6e6e;
+            font-family: "TradeGothic LT";
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 30px 0;
+        }
+        .bottom-cta {
+            padding: 30px 0;
+            a.cta-link {
+                color: #ffffff;
+                font-family: "TradeGothic LT";
+                font-size: 14px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: left;
+                &::after {
+                    content: "\f105";
+                    font-family: fontawesome;
+                    font-size: 18px;
+                    padding-left: 8px;
+                    position: relative;
+                    top: 1px;
+                }
+            }
+        }
     }
 }

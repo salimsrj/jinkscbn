@@ -148,7 +148,7 @@ get_header('mercy');
                                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/product_1.png" alt="product_1">
                                         </div>
                                         <h3 class="title">MERCY CD</h3>
-                                        <span class="price">$25</span>
+                                        <span class="price">$10</span>
                                     </a>
                                 </article>
                             </div>
@@ -201,7 +201,7 @@ get_header('mercy');
         </div>
     </div>
 </section>
-<section class="cta_with_logo" style="background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8) ), url('<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_bg.jpg'); background-size: cover; ">
+<section class="cta_with_logo" style="background: linear-gradient(rgba(14, 14, 14, .5),rgba(14, 14, 14, .5) ), url('<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_bg.jpg'); background-size: cover; ">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
