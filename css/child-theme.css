@@ -15480,7 +15480,6 @@ footer .social-icons ul li:last-child a {
 /****Coming Soon****/
 body.coming-soon {
   background: #0e0e0e;
-  padding: 0 50px;
 }
 body.coming-soon .page_title_box {
   position: absolute;
@@ -15502,9 +15501,16 @@ body.coming-soon .page_title_box h1.page-title {
   background: #000000;
   display: inline-block;
 }
+@media only screen and (max-width : 767px) {
+  body.coming-soon .page_title_box h1.page-title {
+    font-size: 75px;
+    line-height: 75px;
+  }
+}
 body.coming-soon .left-side {
   min-height: 100vh;
   text-align: center;
+  padding: 50px 0;
 }
 body.coming-soon .left-side .image-container {
   max-width: 300px;
@@ -15516,6 +15522,11 @@ body.coming-soon .left-side .logo-container {
   margin: 0 auto;
   margin-bottom: 350px;
   min-height: 50px;
+}
+@media only screen and (max-width : 767px) {
+  body.coming-soon .left-side .logo-container {
+    margin-bottom: 300px;
+  }
 }
 body.coming-soon .left-side h2.title {
   color: #6e6e6e;
@@ -15553,6 +15564,7 @@ body.coming-soon .left-side .bottom-cta a.cta-link::after {
 body.coming-soon .right-side {
   min-height: 100vh;
   text-align: center;
+  padding: 50px 0;
 }
 body.coming-soon .right-side .image-container {
   max-width: 300px;
@@ -15564,6 +15576,11 @@ body.coming-soon .right-side .logo-container {
   margin: 0 auto;
   margin-bottom: 350px;
   min-height: 50px;
+}
+@media only screen and (max-width : 767px) {
+  body.coming-soon .right-side .logo-container {
+    margin-bottom: 100px;
+  }
 }
 body.coming-soon .right-side .logo-container img {
   max-height: 50px;

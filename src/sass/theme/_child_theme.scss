@@ -1,3 +1,7 @@
+$mobile: "only screen and (max-width : 767px)";
+// @media #{$mobile} {
+//     margin-bottom: 100px;
+// }
 @font-face {
     font-family: 'DIN Condensed';
     src: url('DINCondensed-Bold.eot');
@@ -460,7 +464,6 @@ footer {
 
 body.coming-soon {
     background: rgba(14, 14, 14, 1);
-    padding: 0 50px;
     .page_title_box {
         position: absolute;
         top: 150px;
@@ -479,11 +482,16 @@ body.coming-soon {
             padding: 20px;
             background: #000000;
             display: inline-block;
+            @media #{$mobile} {
+                font-size: 75px;
+                line-height: 75px;
+            }
         }
     }
     .left-side {
         min-height: 100vh;
         text-align: center;
+        padding: 50px 0;
         .image-container {
             max-width: 300px;
             margin: 0 auto;
@@ -494,6 +502,9 @@ body.coming-soon {
             margin: 0 auto;
             margin-bottom: 350px;
             min-height: 50px;
+            @media #{$mobile} {
+                margin-bottom: 300px;
+            }
         }
         h2.title {
             color: #6e6e6e;
@@ -532,6 +543,7 @@ body.coming-soon {
     .right-side {
         min-height: 100vh;
         text-align: center;
+        padding: 50px 0;
         .image-container {
             max-width: 300px;
             margin: 0 auto;
@@ -542,6 +554,9 @@ body.coming-soon {
             margin: 0 auto;
             margin-bottom: 350px;
             min-height: 50px;
+            @media #{$mobile} {
+                margin-bottom: 100px;
+            }
             img {
                 max-height: 50px;
             }
