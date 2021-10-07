@@ -39,28 +39,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php if ( 'container' === $container ) : ?>
 			<div class="container">
 		<?php endif; ?>
-					<a class="back-home" href="#">BACK TO HOME</a>
+					<a class="back-home mobile-hide" href="<?php echo home_url(); ?>">BACK TO HOME</a>
 
-					<!-- Your site title as branding in the menu -->
-					<?php if ( ! has_custom_logo() ) { ?>
-
-						<?php if ( is_front_page() && is_home() ) : ?>
-
-							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
-
-						<?php else : ?>
-
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-
-						<?php endif; ?>
-
-						<?php
-					} else {
-						the_custom_logo();
-					}
-					?>
-					<a class="cta_btn" href="#">STAY UP TO DATE</a>
+					<div  class="navbar-brand custom-logo-link cody_jinks_custom_logo">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/jinks-cbn-logo-white.png"  alt="Jinks CBN">
+					</div>
+					<a class="cta_btn mobile-hide" href="#newsletter">STAY UP TO DATE</a>
 					<!-- end custom logo -->
+					<div class="mobile-buttons">
+						<a class="back-home" href="<?php echo home_url(); ?>">BACK TO HOME</a>
+						<a class="cta_btn" href="#newsletter">STAY UP TO DATE</a>
+					</div>
 
 				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>

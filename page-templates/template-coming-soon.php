@@ -14,6 +14,7 @@ defined( 'ABSPATH' ) || exit;
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
+    <meta name="title" content="Coming November 12th — Caned by Nod / Cody Jinks">
 </head>
 <body class="coming-soon">
 	<div class="container-fluid">
@@ -28,11 +29,11 @@ defined( 'ABSPATH' ) || exit;
                 </div>
                 <div class="content-box">
                         <div class="image-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cody_jinks_comming.jpg" alt="">
+                            <a href="/mercy"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cody_jinks_comming.jpg" alt=""></a>
                         </div>
-                        <h2 class="title">MERCY — CODY JINKS</h2>                    
+                        <a href="/mercy"><h2 class="title">MERCY — CODY JINKS</h2> </a>                   
                         <div class="bottom-cta">
-                            <a href="#" class="cta-link">PREVIEW THE ALBUM & LEARN MORE</a>
+                            <a href="/mercy" class="cta-link">PREVIEW THE ALBUM & LEARN MORE</a>
                         </div>
                     </div>
                 </div>
@@ -43,11 +44,11 @@ defined( 'ABSPATH' ) || exit;
                 </div>
                 <div class="content-box">
                         <div class="image-container">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_comming.jpg" alt="cbn_comming.jpg">
+                        <a href="/cbn" ><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_comming.jpg" alt="cbn_comming.jpg"></a>
                         </div>
-                        <h2 class="title">MERCY — CODY JINKS</h2>                    
+                        <a href="/cbn"><h2 class="title">None the Wiser — Caned by Nod</h2></a>                    
                         <div class="bottom-cta">
-                            <a href="#" class="cta-link">PREVIEW THE ALBUM & LEARN MORE</a>
+                            <a href="/cbn" class="cta-link">PREVIEW THE ALBUM & LEARN MORE</a>
                         </div>
                     </div>
                 </div>

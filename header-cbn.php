@@ -39,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php if ( 'container' === $container ) : ?>
 			<div class="container">
 		<?php endif; ?>
-					<a class="back-home" href="#">BACK TO HOME</a>
+		<a class="back-home mobile-hide" href="<?php echo home_url(); ?>">BACK TO HOME</a>
 
 					<!-- Your site title as branding in the menu -->
 					<!-- <?php if ( ! has_custom_logo() ) { ?>
@@ -59,11 +59,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					}
 					?> -->
-                    <a href="/cbn" class="navbar-brand custom-logo-link cbn_custom_logo">
+                    <div  class="navbar-brand custom-logo-link cbn_custom_logo">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cbn_white_logo.png"  alt="Jinks CBN">
-                    </a>
-					<a class="cta_btn" href="#">STAY UP TO DATE</a>
+				</div>
+					<a class="cta_btn mobile-hide" href="#newsletter">STAY UP TO DATE</a>
 					<!-- end custom logo -->
+					<div class="mobile-buttons">
+						<a class="back-home" href="<?php echo home_url(); ?>">BACK TO HOME</a>
+						<a class="cta_btn" href="#newsletter">STAY UP TO DATE</a>
+					</div>
 
 				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>

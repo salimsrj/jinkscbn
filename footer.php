@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="newsletter">
+				<div class="newsletter" id="newsletter">
 					<h2 class="title">STAY UP TO DATE</h2>
 					
 						<div class="row">
@@ -51,13 +51,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-6">
 				<div class="social-icons">
 					<ul>
-						<li><a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-twitter"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-instagram"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-youtube-play"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-spotify"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-music"></i></span></a></li>
-						<li><a href="#" target="_blank"><span><i class="fa fa-amazon"></i></span></a></li>
+						<li><a href="https://facebook.com/CodyJinksMusic/" target="_blank"><span><i class="fa fa-facebook"></i></span></a></li>
+						<li><a href="https://twitter.com/CodyJinksMusic" target="_blank"><span><i class="fa fa-twitter"></i></span></a></li>
+						<li><a href="https://instagram.com/codyjinks/" target="_blank"><span><i class="fa fa-instagram"></i></span></a></li>
+						<li><a href="https://youtube.com/channel/UCYVrBCMUcl56WlyhKNlj7-Q" target="_blank"><span><i class="fa fa-youtube-play"></i></span></a></li>
+						<li><a href="https://open.spotify.com/artist/2v7wIbCkIzxOfT3GnqCexD?si=B0oLYrFBSlioedfF7sO8DQ" target="_blank"><span><i class="fa fa-spotify"></i></span></a></li>
+						<li><a href="https://music.apple.com/us/artist/cody-jinks/363412711" target="_blank"><span><i class="fa fa-music"></i></span></a></li>
+						<li><a href="https://amazon.com/codyjinks" target="_blank"><span><i class="fa fa-amazon"></i></span></a></li>
 					</ul>
 				</div>
 			</div>
